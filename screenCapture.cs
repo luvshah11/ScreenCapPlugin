@@ -22,7 +22,7 @@ public class screenCapture : MonoBehaviour
        We make a new directory with 'System.IO.Directory.CreateDirectory(foldername)', which is just a regular C# API function.
 
        THIRD we create some way to activate the code to get the screen capture. I arbitraily choose the spacebar.
-       'Input.GetKey()' takes in hardware input (mouse, keyboard, controller, ur mom) and you put '{}' underneath it to run code
+       'Input.GetKey()' takes in hardware input (mouse, keyboard, controller) and you put '{}' underneath it to run code
        
        FOURTH we tell Unity that once we press space, grab the current frame. You grab frames with 'Application.CaptureScreenshot(name)'
        the 'name' part is jsut he name of the image u want it to have, but it must be formatted correctly, as follows:
